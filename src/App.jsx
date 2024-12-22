@@ -1,19 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
 import TopRated from "./Pages/TopRated";
 import Upcoming from "./Pages/Upcoming";
 import MovieDetails from "./Pages/MovieDetails";
 import SearchResults from "./Pages/SearchResults";
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
-
-
-
-
-import './App.css';
+import "./App.css";
 const App = () => {
   return (
     <Router>
